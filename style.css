@@ -1,0 +1,32 @@
+/* banner section start*/
+
+.banner {
+    font-family: 'Merriweather', serif;
+    margin: 60px auto;
+    background: url("resources/Rectangle\ 15.png"),url("resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding: 150px;
+}
+
+.h3tag {
+    margin: 0px;
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.h1tag {
+    margin: 0px;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+/* banner section ends*/
