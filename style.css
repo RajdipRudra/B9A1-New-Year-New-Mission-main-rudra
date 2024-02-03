@@ -61,3 +61,62 @@
 }
 
 /* discount section ends*/
+
+/* Welcometoparty section starts*/
+.Welcometoparty{
+    border-radius: 15px;
+    margin: 10px auto;
+    background: url(resources/Vector.png),url("resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 343px; */
+}
+
+.thatcontainer {
+    
+    justify-content: center;
+    /* background: rgba(0, 0, 0, 0.568); */
+    /* height: 600px;
+    width: 1320px; */
+    display: flex;
+    padding: 67px;
+    gap: 150px;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.content {
+    width: 650px;
+}
+
+.headlineofwtp {
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+}
+
+.paraofwtp {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.joinnow{
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 20px;
+}
+.joinnow:hover{
+    font-weight: bolder;
+    transition: ease-in;
+    background: rgba(255, 217, 0, 0.808);
+    color:purple;
+}
+/* Welcometoparty section ends*/
