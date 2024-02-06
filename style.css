@@ -120,3 +120,118 @@
     color:purple;
 }
 /* Welcometoparty section ends*/
+
+/* that_transparent_part starts */
+.that_transparent_part{
+    margin: 60px auto;
+    background: url("resources/Vector_red.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    
+
+}
+.textsection{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    padding:40px;
+}
+.title_text{
+    color: red;
+}
+.buttonforjoinnow{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+
+}
+/* that_transparent_part ends */
+/* three_section_part starts */
+.content_layear{
+    padding-top: 100px;
+    font-family: 'Inter', sans-serif;
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+}
+.text_section{
+    width: 390px;
+}
+.yearsection{
+    width: 270px;
+}
+.color{
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+}
+.bigheadersection{
+    font-weight: 700;
+    font-size: 30px;
+}
+/* three_section_part ends */
+/* .textpartsection{
+    text-align: center;
+    margin: 50px;
+}
+.bigheadderofholidaysale{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 700
+
+}
+.smallheradersectionofthispart{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+.paragraphsectionyo{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 600px;
+    
+} */
+
+
+/* Footer section */
+footer{
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    color: white;
+    background-color: #070211;
+    background-size: contain;
+}
+.text_-section{
+    padding: 60px 0px 30px 0px;
+    justify-content:space-around;
+    display: flex;
+    gap: 200px;
+}
+.details_class{
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    
+}
+.image_part_of_footer{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.that_hr{
+    
+    /* border-color: white; */
+    width: 1500px;
+    
+}
