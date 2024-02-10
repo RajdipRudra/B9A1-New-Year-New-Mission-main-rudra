@@ -1,3 +1,5 @@
+
+
 /* banner section start*/
 
 .banner {
@@ -161,13 +163,14 @@
     margin: 50px;
     justify-content: center;
     display: flex;
-    gap: 60px;
+    gap: 80px;
+    /* justify-content: space-between; */
 }
 .text_section{
-    width: 390px;
+    width: 450px;
 }
 .yearsection{
-    width: 270px;
+    width: 350px;
 }
 .color{
     color: red;
@@ -194,16 +197,114 @@
     color: black;
     font-weight: 400;
 }
+*/
 .paragraphsectionyo{
-    text-align: center;
+    font-size: 20px;
+    /* text-align: center; */
     font-family: 'Inter', sans-serif;
-    width: 600px;
+    width: 800px;
     
-} */
+} 
 
+/* thebestgifts section */
+.thebestgifts{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* align-items: center; */
+    /* margin: 50px auto; */
+}
+.text_sectioni_of_thebestgifts{
+    /* padding: 10px 350px; */
+    /* justify-content: center; */
+    /* display: flexbox; */
+    
+}
+.title_small{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color:red;
+}
+.title_big{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.image_section_ofthebestgifts{
+    margin: 30px auto;
+}
+.threeimageset{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.imagesofthebestgift{
+    /* -webkit-transform: scale(.9); */
+	transform: scale(.9);
+	/* -webkit-transition: .3s ease-in-out; */
+	transition: .3s ease-in-out;
+    margin-top: 15px;
+}
+.imagesofthebestgift:hover{
+    -webkit-transform: scale(1);
+	/* transform: scale(1); */
+}
+/* thebestgifts section */
+
+/* subscribe_newsletter starts */
+.subscribe_newsletter{
+    width: 1310px;
+    padding: 50px;
+    text-align: center;
+    margin: 70px 350px;
+    border-radius: 15px;
+    background: #ff00001c;
+}
+.text_and_img_section>img{
+    size: 150px;
+}
+.h1ofsubscribe{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.paragraphsection{
+    font-size: 23px;
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+} 
+
+.subscribe_newsletter{
+    margin: 0px auto;
+}
+
+.emaill{
+    margin: 0px;
+    border-radius: 15px 0px 0px 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+
+}
+.button_of_S{
+    color:white;
+    margin: 0px;
+    background-color: red;
+    border-radius: 0px 15px 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+}
 
 /* Footer section */
 footer{
+    /* margin: 0px 0px; */
+    margin-top: 50px;
     font-family: 'Inter', sans-serif;
     justify-content: center;
     color: white;
@@ -233,5 +334,65 @@ footer{
     
     /* border-color: white; */
     width: 1500px;
+     
+}
+/* .whatisfunction{ 
+    padding: 30px;
+    margin: 60px 665px;
+    
     
 }
+
+.titletexxt{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: light;
+    text-align: center;
+    
+}
+.bigtitletext{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.bigtitletext>span{
+    color: red;
+}
+.paragraphtag{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.image_of_multiple{
+    margin: 30px 0px;
+}
+.Rectangle_1{
+    display: flex;
+    justify-content: right;
+    
+}
+.Rectangle_2{
+    display: flex;
+    justify-content: flex-end;
+    height: 250px;
+}
+.Group_44{
+    position: absolute;
+    
+    /* left: 0px; */
+    /*display: flex;
+    justify-content:right;
+    height: 306px;
+    width: 306px;
+    
+}
+.Group_75{
+    position: absolute;
+    top: 20px;
+    /* display: flex; */
+    /* justify-content:center; 
+    height: 250px;
+    
+}
+*/
