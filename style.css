@@ -5,7 +5,7 @@
 .banner {
     font-family: 'Merriweather', serif;
     margin: 60px auto;
-    background: url("resources/Rectangle\ 15.png"),url("resources/Banner\ Image.png");
+    background:url("resources/Banner\ Image.png");
     background-repeat: no-repeat;
     height: 600px;
     width: 1320px;
@@ -15,6 +15,8 @@
     color: white;
     text-align: center;
     padding: 150px;
+    background: rgba(0, 0, 0, 0.425);
+    border-radius: 15px;
 }
 
 .h3tag {
@@ -68,7 +70,7 @@
 .Welcometoparty{
     border-radius: 15px;
     margin: 10px auto;
-    background: url(resources/Vector.png),url("resources/Vectorrr.png");
+    background: url("resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     /* padding: 343px; */
@@ -126,12 +128,11 @@
 /* that_transparent_part starts */
 .that_transparent_part{
     margin: 60px auto;
-    background: url("resources/Vector_red.png");
-    background-repeat: no-repeat;
-    background-position: center;
     border-radius: 15px;
-    
-
+    width: 1310px;
+    padding: 50px;
+    border-radius: 15px;
+    background: #ff00001c;
 }
 .textsection{
     font-family: 'Inter', sans-serif;
@@ -240,15 +241,12 @@
     gap: 20px;
 }
 .imagesofthebestgift{
-    /* -webkit-transform: scale(.9); */
 	transform: scale(.9);
-	/* -webkit-transition: .3s ease-in-out; */
 	transition: .3s ease-in-out;
     margin-top: 15px;
 }
 .imagesofthebestgift:hover{
     -webkit-transform: scale(1);
-	/* transform: scale(1); */
 }
 /* thebestgifts section */
 
